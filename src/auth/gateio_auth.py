@@ -1,5 +1,5 @@
 import yaml
-from gate_api import ApiClient, Configuration, Order, SpotApi
+from gate_api import Configuration
 
 
 def load_gateio_creds(file):

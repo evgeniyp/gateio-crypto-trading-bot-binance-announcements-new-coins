@@ -9,10 +9,8 @@ from datetime import datetime, time
 import time
 import threading
 import copy
-import json
-from json import JSONEncoder
 import os.path
-import sys, os
+import os
 
 # To add a coin to ignore, add it to the json array in old_coins.json
 globals.old_coins = load_old_coins()
